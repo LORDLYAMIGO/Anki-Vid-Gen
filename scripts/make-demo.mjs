@@ -1,0 +1,7 @@
+import {writeFileSync,mkdirSync} from 'node:fs';
+mkdirSync('fixtures',{recursive:true});
+const prompts=[
+['What is the largest ocean?','Pacific Ocean'],['How many sides does a hexagon have?','Six'],['What gas do plants absorb?','Carbon dioxide'],['Which planet is closest to the Sun?','Mercury'],['What is H₂O commonly called?','Water'],['What force pulls objects toward Earth?','Gravity'],['What does DNA stand for?','Deoxyribonucleic acid'],['What is the capital of Japan?','Tokyo'],['Which organ pumps blood?','The heart'],['What is 9 × 7?','63'],['What part of a plant absorbs water?','The roots'],['What is the chemical symbol for gold?','Au'],['How many minutes are in an hour?','60'],['What is the freezing point of water in Celsius?','0°C'],['What type of animal is a frog?','An amphibian'],['Which star is nearest Earth?','The Sun'],['What do bees collect from flowers?','Nectar'],['How many continents are there?','Seven'],['What is the opposite of opaque?','Transparent'],['What unit measures electrical resistance?','Ohms']
+];
+const cards=prompts.map(([question,answer],i)=>({id:`json:demo20:${String(i+1).padStart(2,'0')}`,source:{type:'json',deckId:'demo20',sourceFingerprint:`demo20-${i+1}`,license:'CC0'},tags:['demo'],language:'en',front:[{kind:'text',text:question}],back:[{kind:'text',text:answer}],media:[],warnings:[]}));
+writeFileSync('fixtures/cards-20.json',JSON.stringify({cards},null,2));

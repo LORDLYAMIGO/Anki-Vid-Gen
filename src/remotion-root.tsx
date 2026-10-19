@@ -1,0 +1,10 @@
+import React from 'react';
+import {Composition,registerRoot} from 'remotion';
+import {FlashcardVideo,type VideoProps} from './video.tsx';
+import {Settings,Card} from './core.ts';
+import {planTimeline} from './timeline.ts';
+const card=Card.parse({id:'demo',source:{type:'json',sourceFingerprint:'demo'},tags:[],front:[{kind:'text',text:'What helps a memory last?'}],back:[{kind:'text',text:'Active recall.'}],media:[],warnings:[]});
+const settings=Settings.parse({});
+const props:VideoProps={card,settings,plan:planTimeline({question:null,answer:null,explanation:null},settings)};
+const Root=()=> <Composition id="Flashcard" component={FlashcardVideo} width={1080} height={1920} fps={30} durationInFrames={props.plan.end} defaultProps={props} calculateMetadata={({props})=>({durationInFrames:props.plan.end})}/>;
+registerRoot(Root);

@@ -1,0 +1,60 @@
+{
+  "jobId": "fc11e326-203c-49dc-97c7-d18f7bfca1fc",
+  "deckId": null,
+  "requested": 3,
+  "reserved": 3,
+  "records": [
+    {
+      "cardId": "json:demo20:01",
+      "sourceFingerprint": "demo20-1",
+      "provenance": {
+        "type": "json",
+        "deckId": "demo20",
+        "license": "CC0"
+      },
+      "template": "reveal",
+      "status": "completed",
+      "output": "C:\\Users\\srija\\Kode\\Anki Vid Gen\\japanique\\cards_demo2001_what-is-the-largest-ocean_reveal_v04.mp4",
+      "durationMs": 13400,
+      "targetExtended": false,
+      "error": null,
+      "warnings": [],
+      "renderSettingsFingerprint": "610ac024a518dd3a0ef9bd2e2aeccb098fc4537bde1dd82b4504330e415774fc"
+    },
+    {
+      "cardId": "json:demo20:02",
+      "sourceFingerprint": "demo20-2",
+      "provenance": {
+        "type": "json",
+        "deckId": "demo20",
+        "license": "CC0"
+      },
+      "template": "reveal",
+      "status": "completed",
+      "output": "C:\\Users\\srija\\Kode\\Anki Vid Gen\\japanique\\cards_demo2002_how-many-sides-does-a-hexagon-have_reveal_v02.mp4",
+      "durationMs": 13400,
+      "targetExtended": false,
+      "error": null,
+      "warnings": [],
+      "renderSettingsFingerprint": "610ac024a518dd3a0ef9bd2e2aeccb098fc4537bde1dd82b4504330e415774fc"
+    },
+    {
+      "cardId": "json:demo20:03",
+      "sourceFingerprint": "demo20-3",
+      "provenance": {
+        "type": "json",
+        "deckId": "demo20",
+        "license": "CC0"
+      },
+      "template": "reveal",
+      "status": "completed",
+      "output": "C:\\Users\\srija\\Kode\\Anki Vid Gen\\japanique\\cards_demo2003_what-gas-do-plants-absorb_reveal_v02.mp4",
+      "durationMs": 13400,
+      "targetExtended": false,
+      "error": null,
+      "warnings": [],
+      "renderSettingsFingerprint": "610ac024a518dd3a0ef9bd2e2aeccb098fc4537bde1dd82b4504330e415774fc"
+    }
+  ],
+  "skippedCards": []
+}

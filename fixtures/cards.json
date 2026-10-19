@@ -1,0 +1,8 @@
+{
+  "cards": [
+    {"id":"json:demo:1","source":{"type":"json","deckId":"demo","sourceFingerprint":"demo-1","license":"CC0"},"tags":["demo","science"],"language":"en","front":[{"kind":"text","text":"What causes a rainbow?"}],"back":[{"kind":"text","text":"Sunlight refracts and reflects inside water droplets."}],"explanation":[{"kind":"text","text":"Different wavelengths leave at different angles."}],"media":[],"warnings":[]},
+    {"id":"json:demo:2","source":{"type":"json","deckId":"demo","sourceFingerprint":"demo-2","license":"CC0"},"tags":["demo","language"],"language":"ja","front":[{"kind":"text","text":"ありがとう means what in English?"}],"back":[{"kind":"text","text":"Thank you"}],"media":[],"warnings":[]},
+    {"id":"json:demo:3","source":{"type":"json","deckId":"demo","sourceFingerprint":"demo-3","license":"CC0"},"tags":["demo","language"],"language":"hi","front":[{"kind":"text","text":"नमस्ते का अंग्रेज़ी में अर्थ क्या है?"}],"back":[{"kind":"text","text":"Hello"}],"media":[],"warnings":[]},
+    {"id":"json:demo:4","source":{"type":"json","deckId":"demo","sourceFingerprint":"demo-4","license":"CC0"},"tags":["demo","geography"],"language":"en","front":[{"kind":"text","text":"Which planet has the Great Red Spot?"}],"back":[{"kind":"text","text":"Jupiter"}],"options":[{"id":"a","label":"Mars","correct":false},{"id":"b","label":"Jupiter","correct":true},{"id":"c","label":"Venus","correct":false}],"media":[],"warnings":[]}
+  ]
+}
